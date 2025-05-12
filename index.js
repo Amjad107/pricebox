@@ -1,8 +1,7 @@
 require('dotenv').config();
+const express = require('express');
 const cors = require('cors');
 app.use(cors());
-
-const express = require('express');
 const multer = require('multer');
 const bodyParser = require('body-parser');
 const { OpenAI } = require('openai');
