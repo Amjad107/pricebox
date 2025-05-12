@@ -1,0 +1,20 @@
+{
+  "name": "ai-agent-product-analyzer",
+  "version": "1.0.0",
+  "description": "AI Agent 1 - Product Recognition API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google-cloud/vision": "^5.1.0",
+    "axios": "^1.9.0",
+    "body-parser": "^1.20.2",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "form-data": "^4.0.0",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^4.19.0"
+  }
+}
